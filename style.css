@@ -24,13 +24,13 @@ header{
 .sideNav{
     grid-row: 1/4;
     background-color: rgb(67, 137, 223);
-    height: 270%;
+    height: 272%;
 }
 main{
     background-color: rgb(227, 232, 239);
     grid-column: 2/4;
     grid-row: 2/4;
-    height: 355%;
+    height: 360%;
 }
 .searchBox{
     display: flex;
@@ -137,3 +137,202 @@ h3{
     padding-bottom: 5px;
     border-radius: 20px;
     cursor: pointer;}
+    .logo{
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    .logo >img{
+        filter: brightness(0) saturate(100%) invert(100%) sepia(16%) saturate(213%) hue-rotate(348deg) brightness(115%) contrast(100%);
+
+    }
+    .linksSection{
+        margin-bottom: 40px;
+    }
+    .links > img{
+   filter: brightness(0) saturate(100%) invert(100%) sepia(16%) saturate(213%) hue-rotate(348deg) brightness(115%) contrast(100%);
+    }
+    .logoIcon{
+        width: 150px;
+        height: 80px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .homeIcon{
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        margin-top: 15px;
+    }
+    .profileIcon{
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        margin-top: 15px;
+    }
+    .messageIcon{
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        margin-top: 15px;
+    }
+    .messagesIcon{
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        margin-top: 15px;
+    }
+    .helpIcon{
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        margin-top: 15px;
+    }
+    .listIcon{
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        margin-top: 15px;
+    }
+    .studentsIcon{
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        margin-top: 15px;
+    }
+    .settingsIcon{
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        margin-top: 15px;
+    }
+    .favIcon{
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        margin-top: 15px;
+        
+    }
+    .links{
+        display: flex;
+        justify-content: left;
+        margin-left: 20px;
+
+
+    }
+    h5{
+        margin-top: 25px;
+        margin-left: 10px;
+        color: white;
+    }
+    h2{
+        font-size: 20px;
+        text-align: left;
+        margin-top: 35px;
+        color: white;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 420px 420px 250px;
+        grid-template-rows:repeat(3, 245px);
+        column-gap: 20px;
+        row-gap: 10px;
+
+    }
+    .project1{
+        background-color: white;
+        box-shadow: 10px  10px 10px rgb(155, 155, 155) ;
+        border-radius: 20px;
+        width: 300px;
+        height: 200px;
+        border-left: 10px solid rgb(255, 149, 0);
+        margin-left: 20px;
+        margin-top: 20px;
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .project2{
+        background-color: white;
+        box-shadow: 10px  10px 10px rgb(155, 155, 155) ;
+        border-radius: 20px;
+        width: 300px;
+        height: 200px;
+        border-left: 10px solid rgb(255, 149, 0);
+        margin-left: 20px;
+        margin-top: 20px;
+        grid-column: 2;
+
+    }
+    .project3{
+        background-color: white;
+        box-shadow: 10px  10px 10px rgb(155, 155, 155) ;
+        border-radius: 20px;
+        width: 300px;
+        height: 200px;
+        border-left: 10px solid rgb(255, 149, 0);
+        margin-left: 20px;
+        margin-top: 20px;
+                grid-column: 1;
+        grid-row: 2;
+    }
+    .project4{
+        background-color: white;
+        box-shadow: 10px  10px 10px rgb(155, 155, 155) ;
+        border-radius: 20px;
+        width: 300px;
+        height: 200px;
+        border-left: 10px solid rgb(255, 149, 0);
+        margin-left: 20px;
+        margin-top: 20px;
+                grid-column: 2;
+        grid-row: 2;
+    }
+    .project5{
+        background-color: white;
+        box-shadow: 10px  10px 10px rgb(155, 155, 155) ;
+        border-radius: 20px;
+        width: 300px;
+        height: 200px;
+        border-left: 10px solid rgb(255, 149, 0);
+        margin-left: 20px;
+        margin-top: 20px;
+                grid-column: 1;
+        grid-row: 3;
+    }
+    .project6{
+        background-color: white;
+        box-shadow: 10px  10px 10px rgb(155, 155, 155) ;
+        border-radius: 20px;
+        width: 300px;
+        height: 200px;
+        border-left: 10px solid rgb(255, 149, 0);
+        margin-left: 20px;
+        margin-top: 20px;
+                grid-column: 2;
+        grid-row: 3;
+    }
+    .news{
+        background-color: white;
+        box-shadow: 10px  10px 10px rgb(155, 155, 155) ;
+        border-radius: 5px;
+        width: 230px;
+        height: 350px;
+        margin-top: 20px;
+        grid-column: 3;
+        grid-row: 1/2;
+        margin-left: 10px;
+        
+    }
+    .marks{
+        background-color: rgb(255, 255, 255);
+        box-shadow: 10px  10px 10px rgb(155, 155, 155) ;
+        border-radius: 5px;
+        width: 230px;
+        height: 300px;
+        margin-top: 170px;
+        grid-column: 3;
+        grid-row:2/3;
+        margin-left: 10px;
+        row-gap: 50px;
+    }
+
